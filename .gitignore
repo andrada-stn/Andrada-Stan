@@ -1,0 +1,5 @@
+#Ignoramos las carpetas siguientes en cualquier parte del proyecto
+output/
+build/
+dist/
+bin/
