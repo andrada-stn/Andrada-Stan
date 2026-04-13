@@ -17,8 +17,8 @@ attemp++;
     attemp++;
 
     }
-    cout<<"ai ghicit<<endl;
-}
+    cout<<"ai ghicit"<<endl; }
+
 
 
     
