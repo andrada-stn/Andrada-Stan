@@ -4,20 +4,21 @@
 using namespace std;
 
 int main() {
-    int randomnumber,attemp=10,x;
+    int randomnumber,attemp=0,x;
 randomnumber=rand() %101;
 cout<<"introdu numarul"<<endl;
-cin>>x;
-attemp++;
-     while(x!=randomnumber)
-    {
+     while( attemp<11)
+    { cin>>x;
+        attemp++;
+        if(x==randomnumber){
+        cout<<"ai ghicit"<<endl;
+        return 0;}
         if(x<randomnumber) cout<<"mai mare"<<endl;
     else cout<<"mai mic"<<endl;
-    cin>>x;
-    attemp++;
 
-    }
-    cout<<"ai ghicit"<<endl; }
+    } 
+    cout<<"ai pierdut"<<" numarul era "<<randomnumber; } 
+
 
 
 
